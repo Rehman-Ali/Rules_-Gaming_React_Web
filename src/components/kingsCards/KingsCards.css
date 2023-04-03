@@ -71,9 +71,10 @@
 }
 
 .card {
+  cursor: pointer;
   position: relative;
-  padding: 42px 5px;
-  clip-path: circle(7% at 95% 12%);
+  padding: 75px 20px;
+  clip-path: circle(7% at 92% 12%);
   transition: all ease-in-out 0.3s;
   height: 450px !important;
   border: none;
