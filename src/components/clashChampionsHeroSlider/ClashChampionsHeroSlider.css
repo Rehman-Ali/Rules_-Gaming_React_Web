@@ -1,0 +1,202 @@
+.clash_hero_slider .disp_slider_heading h6 {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 53px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: linear-gradient(
+    180deg,
+    #8e6a27 -1.11%,
+    #a17e36 1.91%,
+    #c3a150 8.07%,
+    #dcba63 13.88%,
+    #ebca6f 19.15%,
+    #f0cf73 23.38%,
+    #e5c46a 31.88%,
+    #c7a653 46.98%,
+    #96752e 66.75%,
+    #7b5a19 76.71%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.clash_hero_slider .slick-prev:before {
+  content: "" !important;
+  background-image: url("../../assets/images/leftArrow.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  z-index: 999999;
+  position: absolute;
+  left: 150px;
+  top: 12px;
+}
+.clash_hero_slider .slick-next:before {
+  content: "" !important;
+  background-image: url("../../assets/images/rightArrow.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  z-index: 999999;
+  position: absolute;
+  top: 12px;
+  right: 150px;
+}
+.clash_hero_slider .slick-prev {
+  z-index: 1111;
+}
+.map_flag_middlebox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img_section {
+  position: relative;
+}
+.img_section img {
+  position: absolute;
+  z-index: 11111;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.disp_slider_heading {
+  padding-top: 159px;
+}
+.mobile_view {
+  display: none;
+}
+.flag_section img {
+  padding-left: 10px;
+}
+.clash_hero_slider .slick-next,
+.clash_hero_slider .slick-prev {
+  top: 76%;
+}
+/* .event_wrapper .slick-slider .slick-list,
+.slick-slider .slick-track {
+  height: 450px;
+} */
+.track-section {
+  max-width: 200px;
+}
+.track-section img {
+  filter: brightness(5);
+}
+@media screen and (max-width: 1700px) {
+  .clash_hero_slider .slick-prev:before {
+    left: 280px;
+  }
+  .clash_hero_slider .slick-next:before {
+    right: 280px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .clash_hero_slider .slick-prev:before {
+    left: 230px;
+  }
+  .clash_hero_slider .slick-next:before {
+    right: 230px;
+  }
+  .img_section {
+    max-width: 40%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .clash_hero_slider .disp_slider_heading h6 {
+    font-size: 30px;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 1340px) {
+  .clash_hero_slider .slick-prev:before {
+    left: 150px;
+  }
+  .clash_hero_slider .slick-next:before {
+    right: 150px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .event_wrapper .slick-slider .slick-list,
+  .slick-slider .slick-track {
+    height: auto;
+  }
+  .disp_slider_heading {
+    padding-top: 100px;
+  }
+  .map_flag_middlebox {
+    flex-direction: column;
+  }
+  .mobile_view {
+    display: block;
+    width: 60%;
+    height: 250px;
+  }
+  .img_section img {
+    top: 180px;
+  }
+  .clash_hero_slider .slick-prev:before,
+  .clash_hero_slider .slick-next:before {
+    top: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .img_section {
+    max-width: 50%;
+    margin: auto;
+  }
+  .track-section {
+    padding-top: 60px;
+  }
+  .disp_slider_heading {
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .img_section {
+    max-width: 80%;
+    margin: auto;
+  }
+  .clash_hero_slider .slick-prev:before,
+  .clash_hero_slider .slick-next:before {
+    display: none;
+  }
+  .clash_hero_slider .slick-next:before {
+    right: 20px;
+    top: 95px;
+  }
+  .clash_hero_slider .slick-prev:before {
+    left: 20px;
+    top: 95px;
+  }
+  .clash_hero_slider .disp_slider_heading h6 {
+    font-size: 25px;
+    line-height: 46px;
+  }
+  .mobile_view {
+    height: 200px;
+  }
+  .img_section img {
+    top: 120px;
+  }
+  .clash_hero_slider .slick-dots li button:before {
+    font-size: 12px;
+    color: white !important;
+  }
+}
+@media screen and (max-width: 460px) {
+  .img_section img {
+    top: 152px;
+  }
+  .clash_hero_slider .disp_slider_heading h6 {
+    font-size: 20px;
+    line-height: 35px;
+  }
+}

@@ -1,0 +1,114 @@
+.disp_slider_heading h6 {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 53px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: linear-gradient(
+    180deg,
+    #8e6a27 -1.11%,
+    #a17e36 1.91%,
+    #c3a150 8.07%,
+    #dcba63 13.88%,
+    #ebca6f 19.15%,
+    #f0cf73 23.38%,
+    #e5c46a 31.88%,
+    #c7a653 46.98%,
+    #96752e 66.75%,
+    #7b5a19 76.71%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.king_hero_slider .slick-prev:before {
+  content: "" !important;
+  background-image: url("../../assets/images/leftArrow.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  z-index: 999999;
+  position: absolute;
+  left: 320px;
+  top: 130px;
+}
+.king_hero_slider .slick-next:before {
+  content: "" !important;
+  background-image: url("../../assets/images/rightArrow.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  z-index: 999999;
+  position: absolute;
+  top: 130px;
+  right: 320px;
+}
+.king_hero_slider .slick-prev {
+  z-index: 1111;
+}
+
+@media screen and (max-width: 1700px) {
+  .king_hero_slider .slick-prev:before {
+    left: 280px;
+  }
+  .king_hero_slider .slick-next:before {
+    right: 280px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .king_hero_slider .slick-prev:before {
+    left: 230px;
+  }
+  .king_hero_slider .slick-next:before {
+    right: 230px;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .disp_slider_heading h6 {
+    font-size: 30px;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 1340px) {
+  .king_hero_slider .slick-prev:before {
+    left: 150px;
+  }
+  .king_hero_slider .slick-next:before {
+    right: 150px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .king_hero_slider .slick-next,
+  .king_hero_slider .slick-prev {
+    display: none !important;
+  }
+  .king_hero_slider .slick-dots li button:before {
+    font-size: 12px;
+    color: white !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .king_hero_slider .slick-next:before {
+    right: 20px;
+    top: 128px;
+  }
+  .king_hero_slider .slick-prev:before {
+    left: 20px;
+    top: 128px;
+  }
+  .disp_slider_heading h6 {
+    font-size: 25px;
+    line-height: 46px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .king_hero_slider .slick-next:before,
+  .king_hero_slider .slick-prev:before {
+    top: 100px;
+  }
+}

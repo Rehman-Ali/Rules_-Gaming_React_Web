@@ -1,0 +1,57 @@
+.leaderBoard_listing_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f232e;
+  box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 15px 15px;
+  margin-top: 15px;
+}
+.dao_left_side {
+  display: flex;
+  align-items: center;
+}
+
+.lsit_right_side {
+  display: flex;
+  align-items: center;
+}
+.lsit_right_side h6,
+.dao_left_side h6 {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 0px;
+  margin-right: 4px;
+}
+
+.dao_left_side p {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #333742;
+  margin-bottom: 0px;
+  margin-right: 12px;
+}
+.dao_left_side img {
+  margin-right: 6px;
+}
+@media screen and (max-width: 1400px) {
+  .lsit_right_side h6,
+  .dao_left_side h6 {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .dao_left_side img {
+    margin-right: 6px;
+    width: 32px;
+  }
+}

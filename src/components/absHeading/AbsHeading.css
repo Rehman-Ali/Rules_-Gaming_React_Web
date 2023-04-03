@@ -1,0 +1,51 @@
+.headingss {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 53px;
+  letter-spacing: 0.05em;
+  background: linear-gradient(
+    180deg,
+    #8e6a27 -1.11%,
+    #a17e36 1.91%,
+    #c3a150 8.07%,
+    #dcba63 13.88%,
+    #ebca6f 19.15%,
+    #f0cf73 23.38%,
+    #e5c46a 31.88%,
+    #c7a653 46.98%,
+    #96752e 66.75%,
+    #7b5a19 76.71%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-transform: uppercase;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 992px) {
+  .headingss {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .kings_inner_wrapper {
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .headingss {
+    font-size: 23px;
+    line-height: 32px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .headingss {
+    font-size: 28px;
+  }
+}

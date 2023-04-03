@@ -1,0 +1,159 @@
+.cars_team_slider {
+  position: relative;
+}
+.cars_team_slider .slick-prev,
+.cars_team_slider .slick-next {
+  z-index: 2;
+}
+.cars_team_slider .slick-prev:before {
+  content: "";
+  background-image: url("../../assets/images/blueleftarrow.png");
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-repeat: no-repeat;
+  left: 0;
+}
+.cars_team_slider .slick-next:before {
+  content: "";
+  background-image: url("../../assets/images/bluerightarrow.png");
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-repeat: no-repeat;
+  right: 0;
+}
+.driver_team1,
+.driver_team2,
+.driver_team3,
+.driver_team4,
+.driver_team5,
+.driver_team6,
+.driver_team7,
+.driver_team8,
+.driver_team9,
+.driver_team10 {
+  display: flex;
+  margin-top: 50px;
+}
+.cars_team_slider .slick-dots {
+  top: 195px;
+  height: 30px;
+}
+.driver_team1 .first_team_card {
+  background-image: url("../../assets/images/Lewis.png");
+}
+.driver_team1 .second_team_card {
+  background-image: url("../../assets/images/george.png");
+}
+.driver_team2 .first_team_card {
+  background-image: url("../../assets/images/oracle1.png");
+}
+.driver_team2 .second_team_card {
+  background-image: url("../../assets/images/oracle2.png");
+}
+.driver_team3 .first_team_card {
+  background-image: url("../../assets/images/alpha1.png");
+}
+
+.driver_team3 .second_team_card {
+  background-image: url("../../assets/images/alpha2.png");
+}
+.driver_team4 .first_team_card {
+  background-image: url("../../assets/images/ferrari1.png");
+}
+.driver_team4 .second_team_card {
+  background-image: url("../../assets/images/ferrari2.png");
+}
+.driver_team5 .first_team_card {
+  background-image: url("../../assets/images/ocon1.png");
+}
+.driver_team5 .second_team_card {
+  background-image: url("../../assets/images/ocon2.png");
+}
+.driver_team6 .first_team_card {
+  background-image: url("../../assets/images/norris1.png");
+}
+.driver_team6 .second_team_card {
+  background-image: url("../../assets/images/norris2.png");
+}
+.driver_team7 .first_team_card {
+  background-image: url("../../assets/images/Zhou.png");
+}
+.driver_team7 .second_team_card {
+  background-image: url("../../assets/images/ValtteriBottas.png");
+}
+.driver_team8 .first_team_card {
+  background-image: url("../../assets/images/stroll1.png");
+}
+.driver_team8 .second_team_card {
+  background-image: url("../../assets/images/stroll2.png");
+}
+.driver_team9 .first_team_card {
+  background-image: url("../../assets/images/hulk1.png");
+}
+.driver_team9 .second_team_card {
+  background-image: url("../../assets/images/hulk2.png");
+}
+.driver_team10 .first_team_card {
+  background-image: url("../../assets/images/sargent1.png");
+}
+.driver_team10 .second_team_card {
+  background-image: url("../../assets/images/sargent2.png");
+}
+.cars_team_slider .slick-next,
+.cars_team_slider .slick-prev {
+  top: 12%;
+}
+@media screen and (max-width: 992px) {
+  .cars_team_slider .slick-prev,
+  .cars_team_slider .slick-next {
+    display: none !important;
+  }
+  .cars_team_slider .slick-dots li button:before {
+    font-size: 20px;
+    color: white;
+  }
+}
+@media screen and (max-width: 768px) {
+  .driver_team1,
+  .driver_team2,
+  .driver_team3,
+  .driver_team4,
+  .driver_team5,
+  .driver_team6,
+  .driver_team7,
+  .driver_team8,
+  .driver_team9,
+  .driver_team10 {
+    flex-direction: column !important;
+  }
+  .cars_team_slider .slick-dots {
+    top: 160px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .cars_team_slider .slick-dots {
+    top: 120px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .cars_team_slider .slick-dots li button:before {
+    font-size: 16px;
+    color: white;
+  }
+  .cars_team_slider .slick-dots {
+    top: 105px;
+  }
+  .slick-dots li {
+    width: 8px;
+  }
+  .cars_team_slider .slick-dots li button:before {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .cars_team_slider .slick-dots {
+    top: 90px;
+  }
+}

@@ -1,0 +1,344 @@
+.spinner_wrapper.mainbox {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  background: linear-gradient(137.05deg, #222631 24.64%, #15202b 74.14%);
+  box-shadow: 0px 4px 37px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+.spinner_wrapper.mainbox:after {
+  position: absolute;
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-size: 32px;
+  right: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.spinner_wrapper .box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-weight: bold;
+  border-radius: 50%;
+  border: 2px solid #3e434f;
+  overflow: hidden;
+  transition: all ease 5s;
+  box-shadow: 0px 4px 37px;
+}
+.spinner_wrapper span {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  position: absolute;
+}
+.spinner_wrapper .span1 {
+  background-image: url("../../assets/images/mvpbg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: -58px;
+  left: 136px;
+  border-radius: 20px;
+  background-position: center;
+  transform: rotate(112deg);
+  cursor: pointer;
+  overflow: hidden;
+}
+.spinner_wrapper .span2 {
+  background-image: url("../../assets/images/left_second.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 83px;
+  transform: rotate(123deg);
+  right: -34px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.spinner_wrapper .span3 {
+  background-image: url("../../assets/images/left_second.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 0;
+  left: -21px;
+  top: 55px;
+  transform: rotate(350deg);
+  cursor: pointer;
+  overflow: hidden;
+}
+.spinner_wrapper .span4 {
+  background-image: url("../../assets/images/mvpbg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 9px;
+  left: 22px;
+  transform: rotate(350deg);
+  cursor: pointer;
+  overflow: hidden;
+}
+.spinner_wrapper .span5 {
+  background-image: url("../../assets/images/defibgg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: -4px;
+  right: -63px;
+  transform: rotate(12deg);
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.spinner_wrapper .box1 .span3 b {
+  transform: translate(-50%, -50%) rotate(-270deg);
+}
+.spinner_wrapper .box1 .span1 b,
+.spinner_wrapper .box2 .span1 b {
+  transform: translate(-50%, -50%) rotate(0.48deg);
+  font-family: avenirRegular;
+
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.spinner_wrapper .box2 .span3 b {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.spinner_wrapper span b {
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.spinner_wrapper .box2 {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-135deg);
+  padding: 30px;
+}
+.spinner_wrapper .spin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  background-color: #001aff;
+  color: #fff;
+  box-shadow: 0 5px 20px #000;
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+}
+.spin:active {
+  width: 70px;
+  height: 70px;
+  font-size: 20px;
+}
+
+.mainbox.animate:after {
+  animation: animateArrow 0.7s ease infinite;
+}
+@keyframes animateArrow {
+  50% {
+    right: -40px;
+  }
+}
+
+.image_one_sword img {
+  position: absolute;
+  top: 112px;
+  left: 126px;
+  width: 48px;
+  height: 48px;
+  transform: rotate(247deg);
+  cursor: pointer;
+}
+.sword_text {
+  top: 130px;
+  position: absolute;
+  left: 30px;
+  width: 170px;
+  transform: rotate(249deg);
+}
+.kings_text {
+  top: 52px;
+  position: absolute;
+  left: 38px;
+  width: 127px;
+}
+.crown_img_spin img {
+  position: absolute;
+  top: 119px;
+  left: 96px;
+  width: 70px;
+  cursor: pointer;
+}
+.grand_text {
+  right: 139px;
+  position: absolute;
+  transform: rotate(251deg);
+  top: 62px;
+}
+.spinner_wrapper .span2 .curve_trophy img {
+  position: absolute;
+  right: -13px;
+  top: 130px;
+  transform: rotate(252deg);
+  width: 65px;
+  transition: 0.6s ease-out;
+  -moz-transition: 0.6s ease-out;
+  transition: 0.6s ease-out;
+  cursor: pointer;
+}
+.mvp_text {
+  top: 115px;
+  position: absolute;
+  transform: rotate(354deg);
+  left: 52px;
+}
+.spinner_wrapper .globe_wrapper {
+  position: absolute;
+  top: 84px;
+  left: 74px;
+  width: 70px;
+}
+.globe {
+  cursor: pointer;
+}
+.defi_textt {
+  position: absolute;
+  transform: rotate(5deg);
+  top: 35px;
+  right: 124px;
+  width: 50px;
+}
+
+.spinner_wrapper .defi_horse_wrap img {
+  transform: rotate(8deg);
+  width: 90px;
+  position: absolute;
+  top: 59px;
+  right: 4px;
+  transition: 0.6s ease-out;
+  -moz-transition: 0.6s ease-out;
+  transition: 0.6s ease-out;
+  cursor: pointer;
+}
+/* .spinner_wrapper .span2:hover,
+.spinner_wrapper .span5:hover {
+  box-shadow: 0px 4px 37px rgba(0, 0, 0, 0.1);
+} */
+
+/* .spinner_wrapper  .curve_trophy:hover img {
+  -webkit-transform: rotateZ(720deg);
+  -moz-transform: rotateZ(720deg);
+  transform: rotateZ(245deg) !important;
+} */
+.logo_spinner {
+  width: 250px;
+  position: absolute;
+  top: 176px;
+  left: 179px;
+  border: 2px solid #3e434f;
+  border-radius: 50%;
+  padding: 45px;
+  background-color: #131d27;
+  cursor: pointer;
+}
+@media screen and (max-width: 680px) {
+  .spinner_wrapper.mainbox {
+    width: 450px;
+    height: 450px;
+  }
+  .spinner_wrapper .span3 {
+    left: -15px;
+    top: 37px;
+    transform: rotate(353deg);
+  }
+  .kings_text {
+    top: 28px;
+    left: 24px;
+    width: 110px;
+  }
+  .crown_img_spin img {
+    top: 78px;
+    left: 63px;
+    width: 70px;
+  }
+  .spinner_wrapper .span1 {
+    top: -47px;
+    left: 106px;
+    border-radius: 20px;
+  }
+  .sword_text {
+    top: 99px;
+    transform: rotate(248deg);
+    left: 3px;
+    width: 164px;
+  }
+  .image_one_sword img {
+    top: 80px;
+    left: 94px;
+  }
+  .logo_spinner {
+    width: 200px;
+
+    top: 134px;
+    left: 126px;
+  }
+  .spinner_wrapper .span2 {
+    top: 64px;
+    right: -27px;
+  }
+  .grand_text {
+    right: 86px;
+    top: 29px;
+  }
+  .spinner_wrapper .span2 .curve_trophy img {
+    right: -13px;
+    top: 95px;
+    width: 55px;
+  }
+  .spinner_wrapper .span4 {
+    bottom: 10px;
+    left: 13px;
+  }
+  .spinner_wrapper .globe_wrapper {
+    top: 47px;
+    left: 55px;
+    width: 66px;
+  }
+  .mvp_text {
+    top: 70px;
+    position: absolute;
+    transform: rotate(1deg);
+    left: 33px;
+  }
+  .spinner_wrapper .span5 {
+    bottom: -9px;
+    right: -45px;
+    transform: rotate(14deg);
+  }
+  .spinner_wrapper .defi_horse_wrap img {
+    transform: rotate(15deg);
+    width: 81px;
+    top: 40px;
+    right: 4px;
+  }
+  .defi_textt {
+    top: 37px;
+    right: 98px;
+    width: 44px;
+    transform: rotate(11deg);
+  }
+  .home_page_slider {
+    margin-top: -69px;
+  }
+}

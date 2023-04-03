@@ -1,0 +1,282 @@
+.kings_wrapper {
+  padding-top: 100px;
+  background-color: #15202b;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 150px;
+}
+.empty {
+  width: 20px;
+}
+.kings_heading {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.kings_inner_wrapper {
+  padding-top: 70px;
+}
+.kings_heading h4 {
+  font-family: mounmentBold !important;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.rules p {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #bb9646;
+  border: 2px solid #bb9646;
+  border-radius: 200px;
+  padding: 15px 40px;
+  margin-left: auto;
+  width: 140px;
+}
+.heading_inner p {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  line-height: 10px;
+  position: relative;
+}
+.heading_inner {
+  text-align: center;
+}
+.heading_inner p::before {
+  content: "";
+  background-image: url("../../assets/images/Star.png");
+  position: absolute;
+  top: -3px;
+  width: 20px;
+  height: 20px;
+  left: 65px;
+  background-repeat: no-repeat;
+}
+.heading_inner p::after {
+  content: "";
+  background-image: url("../../assets/images/Star.png");
+  position: absolute;
+  top: -4px;
+  width: 20px;
+  height: 20px;
+  right: 65px;
+  background-repeat: no-repeat;
+}
+.slider_section {
+  padding-top: 64px;
+}
+
+.kings_step_one {
+  background-image: url("../../assets/images/01.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  padding-left: 100px;
+  margin-top: 60px;
+}
+.step_two_wrapper {
+  padding-top: 60px;
+}
+.step_two_heading {
+  background-image: url("../../assets/images/02.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  padding-left: 100px;
+}
+.kings_step_one h4,
+.step_two_heading h4,
+.kings_step_three h4 {
+  font-family: mounmentBold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  background: linear-gradient(
+    180deg,
+    #8e6a27 -1.11%,
+    #a17e36 1.91%,
+    #c3a150 8.07%,
+    #dcba63 13.88%,
+    #ebca6f 19.15%,
+    #f0cf73 23.38%,
+    #e5c46a 31.88%,
+    #c7a653 46.98%,
+    #96752e 66.75%,
+    #7b5a19 76.71%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 0px;
+}
+.kings_step_one p,
+.step_two_heading p,
+.kings_step_three p {
+  font-family: "Exo", sans-serif;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+.scroll_slider {
+  padding-top: 50px;
+}
+
+.kings_rings_Cards_section {
+  padding-top: 60px;
+}
+.kings_step_three {
+  background-image: url("../../assets/images/03.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  padding-left: 100px;
+}
+.step_three_wrapper {
+  padding-top: 60px;
+}
+.lfg {
+  background-image: url("../../assets/images/step3bg.png");
+  background-position: left;
+  padding: 95px 100px;
+  background-size: cover;
+  margin-top: 50px;
+  text-align: center;
+}
+.lfg button {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 43px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #1f232e;
+  background: linear-gradient(
+    96.88deg,
+    #8e6a27 4.78%,
+    #a17e36 7.78%,
+    #c3a150 13.9%,
+    #dcba63 19.67%,
+    #ebca6f 24.9%,
+    #f0cf73 29.1%,
+    #e5c46a 37.54%,
+    #c7a653 52.54%,
+    #96752e 72.18%,
+    #7b5a19 82.07%
+  );
+  border-radius: 200px;
+  padding: 18px 80px;
+  border: 0.4px solid #2d3251;
+}
+
+@media screen and (max-width: 1480px) {
+  .kings_heading h4 {
+    font-size: 33px;
+    line-height: 40px;
+  }
+  .heading_inner p::before {
+    left: 45px;
+  }
+  .heading_inner p::after {
+    right: 45px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .kings_wrapper {
+    padding-bottom: 100px;
+  }
+  .lfg {
+    padding: 65px 100px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .kings_heading {
+    justify-content: center;
+  }
+  .rules p {
+    margin: auto;
+    font-size: 18px;
+    padding: 12px 40px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lfg {
+    padding: 50px;
+  }
+  .lfg button {
+    font-size: 24px;
+    line-height: 26px;
+    padding: 18px 80px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .kings_heading h4 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .heading_inner p {
+    font-size: 15px;
+  }
+
+  .lfg {
+    padding: 30px;
+  }
+  .lfg button {
+    font-size: 22px;
+    line-height: 26px;
+    padding: 15px 80px;
+  }
+  .kings_wrapper {
+    padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .kings_heading h4 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .kings_step_one h4,
+  .step_two_heading h4,
+  .kings_step_three h4 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .kings_step_one,
+  .step_two_heading,
+  .kings_step_three {
+    padding-left: 50px !important;
+  }
+  .kings_step_one p,
+  .step_two_heading p,
+  .kings_step_three p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .heading_inner p::before {
+    left: 20px;
+  }
+  .heading_inner p::after {
+    right: 20px;
+  }
+}

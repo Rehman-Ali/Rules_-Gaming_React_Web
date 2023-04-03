@@ -1,0 +1,183 @@
+.clashOfChampions_wrapper {
+  padding-top: 100px;
+  background-color: #15202b;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 150px;
+}
+.clash_champion_heading_row {
+  padding-top: 70px;
+}
+.heading h1 {
+  padding-left: 160px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  font-family: "Exo", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin: auto;
+  background: linear-gradient(
+    180deg,
+    #8e6a27 -1.11%,
+    #a17e36 1.91%,
+    #c3a150 8.07%,
+    #dcba63 13.88%,
+    #ebca6f 19.15%,
+    #f0cf73 23.38%,
+    #e5c46a 31.88%,
+    #c7a653 46.98%,
+    #96752e 66.75%,
+    #7b5a19 76.71%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.heading .rules_clash {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #bb9646;
+  border: 2px solid #bb9646;
+  border-radius: 200px;
+  padding: 15px 40px;
+  margin-left: auto;
+  width: 140px;
+  margin-left: 0px;
+}
+.clashOfChampios_headingDisp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.clashOfChampios_headingDisp .clash_disp {
+  font-family: "Exo", sans-serif;
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  padding-left: 150px;
+  color: white;
+  position: relative;
+}
+.clashOfChampios_headingDisp .clash_disp::before {
+  content: "";
+  background-image: url("../../assets/images/Star.png");
+  position: absolute;
+  top: 6px;
+  width: 20px;
+  height: 20px;
+  left: 100px;
+  background-repeat: no-repeat;
+}
+.clashOfChampios_headingDisp .clash_disp::after {
+  content: "";
+  background-image: url("../../assets/images/Star.png");
+  position: absolute;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  right: -47px;
+  background-repeat: no-repeat;
+}
+.clash_slider_scroll .amateur_league p,
+.clash_slider_scroll .rookie_league p,
+.clash_slider_scroll .challenger_league p,
+.clash_slider_scroll .pro_league p {
+  display: none !important;
+}
+.clash_slider_scroll .amateur_league h3,
+.clash_slider_scroll .rookie_league h3,
+.clash_slider_scroll .challenger_league h3,
+.clash_slider_scroll .pro_league h3 {
+  padding: 15px 0px;
+}
+.clash_team_slider h4 {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #2672be;
+}
+.team_section,
+.team_cards {
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 1480px) {
+  .heading h1 {
+    font-size: 33px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .clashOfChampions_wrapper {
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .heading h1,
+  .clashOfChampios_headingDisp .clash_disp {
+    padding-left: 0px;
+  }
+  .clashOfChampios_headingDisp .clash_disp::before {
+    left: -35px;
+  }
+  .heading .rules_clash {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .heading {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .clash_champion_heading_row {
+    padding-top: 45px;
+  }
+  .clashOfChampions_wrapper {
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .heading h1 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+  .clashOfChampios_headingDisp .clash_disp::before {
+    left: -30px;
+    top: 5px;
+  }
+  .clashOfChampios_headingDisp .clash_disp::after {
+    right: -30px;
+  }
+  .heading .rules_clash {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .heading h1 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .clashOfChampios_headingDisp .clash_disp {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

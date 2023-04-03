@@ -1,0 +1,213 @@
+.mainn_events_fighter {
+  padding-top: 60px;
+}
+.mainn_events_fighter h3 {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 43px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: linear-gradient(
+    180deg,
+    #8e6a27 -1.11%,
+    #a17e36 1.91%,
+    #c3a150 8.07%,
+    #dcba63 13.88%,
+    #ebca6f 19.15%,
+    #f0cf73 23.38%,
+    #e5c46a 31.88%,
+    #c7a653 46.98%,
+    #96752e 66.75%,
+    #7b5a19 76.71%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  padding-bottom: 25px;
+  margin-bottom: 0px;
+}
+.main_fighting {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-around;
+}
+.versus_battle h4 {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: linear-gradient(
+    180deg,
+    #8e6a27 -1.11%,
+    #a17e36 1.91%,
+    #c3a150 8.07%,
+    #dcba63 13.88%,
+    #ebca6f 19.15%,
+    #f0cf73 23.38%,
+    #e5c46a 31.88%,
+    #c7a653 46.98%,
+    #96752e 66.75%,
+    #7b5a19 76.71%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.mainn_events_fighter .slick-prev:before {
+  content: "";
+  background-image: url("../../assets/images/leftArrow.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  position: absolute;
+  left: 0px;
+}
+.mainn_events_fighter .slick-next:before {
+  content: "";
+  background-image: url("../../assets/images/rightArrow.png");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  position: absolute;
+  right: 0px;
+}
+.mainn_events_fighter .slick-prev {
+  z-index: 1;
+}
+.first_fighter h6,
+.second_fighter h6 {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+}
+.second_fighter h6 {
+  padding-top: 11px;
+  text-align: center;
+}
+.first_fighter h6 {
+  padding-top: 11px;
+  text-align: center;
+}
+.cards_fighter {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.mainn_events_fighter .slick-next,
+.mainn_events_fighter .slick-prev {
+  top: 10%;
+}
+.main_wrapper_For_event_section .cards_fighter .fight_1 .card_front_side {
+  background-image: url("../../assets/images/fighter1.png") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.main_wrapper_For_event_section .cards_fighter .fight_2 .card_front_side {
+  background-image: url("../../assets/images/fighter2.png") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.cards_fighter .fight_1 .card_front_side {
+  background-image: url("../../assets/images/burnsFull.png") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.cards_fighter .fight_2 .card_front_side {
+  background-image: url("../../assets/images/masvidalfull.png") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.main_fighting_3 .fight_1 .card_front_side {
+  background-image: url("../../assets/images/hollofull.png") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.main_fighting_3 .fight_2 .card_front_side {
+  background-image: url("../../assets/images/allenfull.png") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.main_fighting_4 .fight_1 .card_front_side {
+  background-image: url("../../assets/images/pavlovichfull.png") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.main_fighting_4 .fight_2 .card_front_side,
+.main_fighting_5 .fight_2 .card_front_side {
+  background-image: url("../../assets/images/blaydesfull.png") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.main_fighting_5 .fight_1 .card_front_side {
+  background-image: url("../../assets/images/songfull.png") !important;
+}
+.main_fighting_5 .fight_2 .card_front_side {
+  background-image: url("../../assets/images/simonfull.png") !important;
+}
+@media screen and (max-width: 992px) {
+  .cards_fighter {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mainn_events_fighter .slick-dots {
+    top: 200px;
+  }
+  .mainn_events_fighter .slick-next,
+  .mainn_events_fighter .slick-prev {
+    display: none !important;
+  }
+  .mainn_events_fighter .slick-dots li button:before {
+    font-size: 14px;
+    color: white;
+  }
+}
+@media screen and (max-width: 576px) {
+  .mainn_events_fighter .slick-dots {
+    top: 180px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .main_wrapper_For_event_section .cards_fighter .fight_2 .card_front_side,
+  .main_fighting_5 .fight_2 .card_front_side,
+  .main_fighting_5 .fight_1 .card_front_side,
+  .main_fighting_4 .fight_2 .card_front_side,
+  .main_fighting_5 .fight_2 .card_front_side,
+  .main_fighting_4 .fight_1 .card_front_side,
+  .cards_fighter .fight_2 .card_front_side,
+  .main_fighting_3 .fight_1 .card_front_side,
+  .cards_fighter .fight_1 .card_front_side {
+    background-size: cover;
+  }
+  .mainn_events_fighter .slick-dots {
+    top: 150px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .mainn_events_fighter .slick-dots {
+    top: 130px;
+  }
+}

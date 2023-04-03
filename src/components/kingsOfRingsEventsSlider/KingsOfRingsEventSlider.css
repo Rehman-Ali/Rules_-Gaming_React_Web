@@ -1,0 +1,206 @@
+.kings_event_wrapper {
+  position: relative;
+  z-index: 11;
+}
+.kings_event_wrapper .basketball_ {
+  position: absolute;
+  right: 32%;
+  cursor: pointer;
+}
+.kings_event_wrapper .football_ {
+  position: absolute;
+  left: 32%;
+  cursor: pointer;
+}
+.kings_event_wrapper .racing_gp {
+  position: absolute;
+  left: 45%;
+  top: 85px;
+  cursor: pointer;
+}
+.kings_event_wrapper .boxing_ {
+  position: absolute;
+  left: 37%;
+  top: 60px;
+  cursor: pointer;
+}
+.kings_event_wrapper .rugby_ {
+  position: absolute;
+  right: 38%;
+  top: 78px;
+  cursor: pointer;
+}
+.kings_event_wrapper .cat_name {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -312px;
+}
+.king_event_inner_main_slider_ .Kings_event_name h1 {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 53px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: linear-gradient(
+    180deg,
+    #8e6a27 -1.11%,
+    #a17e36 1.91%,
+    #c3a150 8.07%,
+    #dcba63 13.88%,
+    #ebca6f 19.15%,
+    #f0cf73 23.38%,
+    #e5c46a 31.88%,
+    #c7a653 46.98%,
+    #96752e 66.75%,
+    #7b5a19 76.71%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.king_event_inner_main_slider_ {
+  padding-top: 250px;
+  padding-bottom: 50px;
+}
+.king_event_inner_main_slider_ .slick-prev:before {
+  content: "";
+  background-image: url("../../assets/images/leftArrow.png") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  position: absolute;
+  left: 50px;
+  top: -10px;
+}
+.king_event_inner_main_slider_ .slick-next:before {
+  content: "";
+  background-image: url("../../assets/images/rightArrow.png") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  position: absolute;
+  right: 50px;
+  top: -10px;
+}
+@media screen and (max-width: 1024px) {
+  .kings_event_wrapper .rugby_ {
+    right: 34%;
+    top: 78px;
+  }
+  .kings_event_wrapper .basketball_ {
+    right: 28%;
+  }
+  .kings_event_wrapper .boxing_ {
+    left: 35%;
+  }
+  .kings_event_wrapper .football_ {
+    left: 29%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .kings_event_wrapper {
+    top: 0px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .kings_event_wrapper .basketball_ {
+    right: 22%;
+  }
+  .kings_event_wrapper .rugby_ {
+    right: 29%;
+  }
+  .kings_event_wrapper .boxing_ {
+    left: 30%;
+  }
+  .kings_event_wrapper .football_ {
+    left: 22%;
+  }
+  .kings_event_wrapper .racing_gp {
+    left: 43%;
+    top: 92px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .king_event_inner_main_slider_ .slick-next,
+  .king_event_inner_main_slider_ .slick-prev {
+    display: none !important;
+  }
+  .king_event_inner_main_slider_ .slick-dots li button:before {
+    font-size: 14px;
+    color: #fff !important;
+  }
+  .king_event_inner_main_slider_ {
+    padding-top: 230px;
+    padding-bottom: 20px;
+  }
+  .kings_event_wrapper .basketball_ {
+    right: 16%;
+  }
+  .kings_event_wrapper .rugby_ {
+    right: 25%;
+  }
+  .kings_event_wrapper .boxing_ {
+    left: 25%;
+  }
+  .kings_event_wrapper .football_ {
+    left: 16%;
+  }
+  .kings_event_wrapper .racing_gp {
+    left: 41%;
+    top: 92px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .king_event_inner_main_slider_ .Kings_event_name h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .kings_event_wrapper .basketball_,
+  .kings_event_wrapper .rugby_,
+  .kings_event_wrapper .boxing_,
+  .kings_event_wrapper .football_ {
+    max-width: 50px;
+  }
+  .kings_event_wrapper .racing_gp {
+    max-width: 80px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .kings_event_wrapper {
+    top: 0px;
+  }
+  .kings_event_wrapper .basketball_ {
+    right: 12%;
+  }
+  .kings_event_wrapper .rugby_ {
+    right: 20%;
+  }
+  .kings_event_wrapper .boxing_ {
+    left: 20%;
+  }
+  .kings_event_wrapper .football_ {
+    left: 12%;
+  }
+  .kings_event_wrapper .racing_gp {
+    left: 38%;
+    top: 92px;
+  }
+  .kings_event_wrapper .basketball_,
+  .kings_event_wrapper .rugby_,
+  .kings_event_wrapper .boxing_,
+  .kings_event_wrapper .football_ {
+    max-width: 45px;
+  }
+  .kings_event_wrapper .racing_gp {
+    max-width: 80px;
+  }
+}

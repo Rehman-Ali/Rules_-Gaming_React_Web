@@ -1,0 +1,268 @@
+/* .card_wrapper_for_kings {
+  width: 48% !important;
+} */
+.flip_card_back h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.05em !important;
+  color: #24bb63;
+  text-transform: uppercase;
+}
+.fight_3 .flip_card_back h1,
+.fight_1 .flip_card_back h1,
+.fight_2 .flip_card_back h1 {
+  font-family: mounmentBold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.05em;
+  color: #24bb63;
+}
+.winning_strike_rate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  /* padding-left: 30px; */
+}
+
+.fight_1 h2,
+.fight_2 h2,
+.fight_3 h2 {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #7d3484;
+  text-align: center;
+}
+.fight_2 h2 {
+  color: #24bb63;
+}
+.fight_1 .card_front_side {
+  background: #303642;
+  color: black !important;
+  background-image: url("../../assets/images/fighter1.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 550px;
+  border-radius: 33px;
+  padding: 10px 20px;
+}
+.card_front_side {
+  background: #303642;
+  color: black;
+  background-image: url("../../assets/images/fighter2.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 550px;
+  border-radius: 33px;
+  padding: 10px 20px;
+}
+
+.card {
+  position: relative;
+  padding: 42px 5px;
+  clip-path: circle(7% at 95% 12%);
+  transition: all ease-in-out 0.3s;
+  height: 450px !important;
+  border: none;
+  outline: none;
+  background: #303642 !important;
+}
+.card__infoicon {
+  position: absolute;
+  top: 25px;
+  right: 5px;
+  font-size: 1.4em;
+  color: #000 !important;
+  transition: ease-out 0.3s;
+  background: #303642;
+  border: none !important;
+  outline: none;
+}
+.card:hover,
+.card:focus {
+  clip-path: circle(75%);
+  border-radius: 33px;
+  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08);
+  background: #303642 !important;
+  outline: none;
+}
+.card:hover .card__infoicon,
+.card:focus .card__infoicon {
+  opacity: 0;
+}
+.card:focus {
+  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08),
+    0px 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+.win p,
+.knockout p,
+.finished p {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 20px;
+}
+.one_right h1 {
+  color: #b35cb2 !important;
+}
+.one_right p,
+.flip_card_back p {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.pink_button button,
+.green_button button {
+  font-family: "Exo", sans-serif;
+  background: #9c399a;
+  mix-blend-mode: normal;
+  border: 1px solid #3a004b;
+  border-radius: 200px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #f5f5f5;
+  padding: 8px 40px;
+  border: none;
+  margin: auto;
+}
+.green_button button {
+  background: #24bb63;
+}
+.winning_strike_rate .win p,
+.winning_strike_rate .knockout p,
+.winning_strike_rate .finished p {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 20px;
+}
+.flip_card_back .win h6,
+.flip_card_back .knockout h6,
+.flip_card_back .finished h6 {
+  font-family: mounmentBold;
+  font-style: normal;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: 0.05em;
+  color: #24bb63;
+}
+.one_right .win h6,
+.one_right .knockout h6,
+.one_right .finished h6 {
+  color: #b35cb2;
+}
+/* .fight_2 .knockout,
+.fight_2 .finished {
+  padding: 0px 30px;
+} */
+.win,
+.knockout,
+.finished {
+  padding: 0px 10px;
+}
+
+@media screen and (max-width: 1700px) {
+  .fight_2 .knockout,
+  .fight_2 .finished {
+    padding: 0px 10px;
+  }
+  .winning_strike_rate {
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 1560px) {
+  .flip_card_back .win h6,
+  .flip_card_back .knockout h6,
+  .flip_card_back .finished h6 {
+    font-size: 56px;
+    line-height: 60px;
+  }
+  .winning_strike_rate .win p,
+  .winning_strike_rate .knockout p,
+  .winning_strike_rate .finished p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .fight_3 .flip_card_back h1,
+  .fight_1 .flip_card_back h1,
+  .fight_2 .flip_card_back h1 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .win,
+  .knockout,
+  .finished {
+    padding: 0px 15px;
+  }
+  .card_wrapper_for_kings {
+    margin-top: 20px !important;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .winning_strike_rate {
+    padding-top: 50px;
+  }
+  .card:hover,
+  .card:focus {
+    padding: 20px 15px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .winning_strike_rate {
+    padding-top: 10px;
+    flex-direction: column;
+  }
+  .winning_strike_rate .win p,
+  .winning_strike_rate .knockout p,
+  .winning_strike_rate .finished p {
+    padding-top: 5px;
+  }
+  .fight_3 .flip_card_back h1,
+  .fight_1 .flip_card_back h1,
+  .fight_2 .flip_card_back h1 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .card {
+    clip-path: circle(9% at 95% 12%);
+  }
+}

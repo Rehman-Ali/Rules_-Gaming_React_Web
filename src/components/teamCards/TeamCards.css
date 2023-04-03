@@ -1,0 +1,75 @@
+.first_team_card {
+  background-image: url("../../assets/images/Lewis.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 25px;
+  align-items: center;
+  margin: 0px 15px;
+}
+.ham h4,
+.russel h4 {
+  font-family: "Exo", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 43px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #7d3484;
+}
+.russel h4 {
+  color: #008439;
+}
+.second_team_card {
+  background-image: url("../../assets/images/george.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 25px;
+  align-items: center;
+  margin: 0px 15px;
+}
+.first_team_card button {
+  font-family: avenirRegular;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #f5f5f5;
+  background: #9c399a;
+  mix-blend-mode: normal;
+  border: 1px solid #3a004b;
+  border-radius: 200px;
+  padding: 15px 50px;
+}
+.second_team_card button {
+  font-family: avenirRegular;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #f5f5f5;
+  background: #24bb63;
+  mix-blend-mode: normal;
+  border: 1px solid #005a17;
+  border-radius: 200px;
+  padding: 15px 50px;
+}
+@media screen and (max-width: 768px) {
+  .ham h4,
+  .russel h4 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .team_card_wrapper {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,161 @@
+.home_page_slider {
+  margin-top: -100px;
+  position: relative;
+  background-color: #15202b;
+}
+.home_page_slider button.slick-arrow.slick-prev,
+.home_page_slider button.slick-arrow.slick-next {
+  display: none !important;
+}
+.first_slide,
+.second_slide,
+.third_slider,
+.fouth_slide {
+  background-image: url("../../assets/images/f1silverstone.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 270px;
+  border: 3px solid #ac893e;
+  border-radius: 40px;
+}
+.second_slide {
+  background-image: url("../../assets/images/mufc.png");
+}
+.third_slider {
+  background-image: url("../../assets/images/fury.png");
+}
+.fouth_slide {
+  background-image: url("../../assets/images/esport.png");
+}
+.first_slide,
+.second_slide,
+.third_slider,
+.fouth_slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: end;
+}
+.slide_inner h4 {
+  font-family: mounmentBold;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  background: linear-gradient(
+    180deg,
+    #8e6a27 -1.11%,
+    #a17e36 1.91%,
+    #c3a150 8.07%,
+    #dcba63 13.88%,
+    #ebca6f 19.15%,
+    #f0cf73 23.38%,
+    #e5c46a 31.88%,
+    #c7a653 46.98%,
+    #96752e 66.75%,
+    #7b5a19 76.71%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-transform: uppercase;
+}
+.slide_inner p {
+  font-family: mounmentRegular;
+
+  font-style: normal;
+  letter-spacing: 0.05em;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.home_page_slider .slick-slide.slick-cloned,
+.home_page_slider .slick-slide.slick-active.slick-current,
+.home_page_slider .slick-slide.slick-active {
+  margin: 0px 15px;
+}
+
+.home_page_slider .slick-dots li button:before {
+  font-size: 16px;
+  color: #fff;
+}
+
+/* .home_page_slider .slick-dots {
+  bottom: 200px;
+} */
+.home_page_slider .slick-track {
+  height: 150px !important;
+}
+.home_page_slider h6 {
+  font-family: mounmentBold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  background: linear-gradient(
+    180deg,
+    #8e6a27 -1.11%,
+    #a17e36 1.91%,
+    #c3a150 8.07%,
+    #dcba63 13.88%,
+    #ebca6f 19.15%,
+    #f0cf73 23.38%,
+    #e5c46a 31.88%,
+    #c7a653 46.98%,
+    #96752e 66.75%,
+    #7b5a19 76.71%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  text-align: center;
+  position: relative;
+}
+.home_page_slider h6:before {
+  content: "";
+  border: 1px solid #3e434f;
+  width: 34%;
+  position: absolute;
+  left: 4px;
+  top: 10px;
+}
+.home_page_slider h6:after {
+  content: "";
+  border: 1px solid #3e434f;
+  width: 34%;
+  position: absolute;
+  right: 4px;
+  top: 10px;
+}
+@media screen and (max-width: 1280px) {
+  .home_page_slider h6:before,
+  .home_page_slider h6:after {
+    width: 32%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home_page_slider h6:before,
+  .home_page_slider h6:after {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .home_page_slider .slick-slide.slick-active.slick-current {
+    width: 10% !important;
+    height: 270px;
+  }
+  .home_page_slider .slick-slide.slick-cloned {
+    width: 160px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .home_page_slider .slick-slide.slick-active.slick-current {
+    width: 3% !important;
+    height: 270px;
+  }
+  .home_page_slider .slick-slide.slick-cloned {
+    width: 140px !important;
+  }
+}
